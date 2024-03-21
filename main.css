@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Dekiru'; 
+    src: url('Dekiru.ttf') format('truetype'); 
+}
+
+body, html {
+    font-family: 'Dekiru', sans-serif; 
+    text-align: center; 
+    background-color: midnightblue;
+    background-image: url('icons/bg.jpg');  
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 100%;
+}
+
+
+.image1 {
+    width: 64px;
+    height: 64px;
+    transition: transform 0.3s ease-in-out; 
+    transform: translateY(0); 
+    justify-content: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.image1:hover {
+    transform: translateY(-10px); 
+}
+
+.image2 {
+    margin: auto;
+    width: 256px;
+    height: 256px;
+}
+
+h1 {
+    font-size: 86px;
+    color: white;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td {
+    padding: 15px;
+}
